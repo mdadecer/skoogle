@@ -1,0 +1,34 @@
+.searchList{
+    margin-top: 5px;
+    width:350px;
+    height:150px;
+    background-color: white;
+    overflow:hidden;
+    overflow-y:auto;
+    border: 5px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+/* .searchList::-webkit-scrollbar {
+  display: none;
+} */
+
+.dataItem:hover {
+    background-color: lightgrey;
+  }
+
+.dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.dataItem p{
+    text-align: center;
+
+}
